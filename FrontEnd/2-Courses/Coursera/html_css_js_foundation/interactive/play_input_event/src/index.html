@@ -1,0 +1,9 @@
+<h1> Play with input and event </h1>
+<canvas id="cvs"> </canvas>
+<br><br/>
+<!-- a button to change the background color of the canvas "on click"  -->
+<input type="button" value="Make Red" onclick="doRed()" id="botton1"> 
+<!-- a color input element that allows the user to change the color of the canvas "on change" -->
+<input type="color" value="#ff0000" onchange="doColor()" id="botton2">
+<!-- Add a slider input element by specifying the type range-->
+<input type="range" id="shaper" min="10" max="50" value="10" oninput="doSquare()">
