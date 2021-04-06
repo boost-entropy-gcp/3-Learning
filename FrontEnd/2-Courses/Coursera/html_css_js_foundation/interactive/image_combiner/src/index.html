@@ -1,0 +1,13 @@
+<script src='https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js'></script>
+
+<h1> Image Combiner </h1>
+<div>
+  <canvas id=cvsimgfor> </canvas>
+  <canvas id=cvsimgback> </canvas>
+  <br></br>
+  <p> Foreground: <input type="file" multiple="false" accept="image/*" id="inputfor" onchange="uploadFor()"/>   </p>
+  <p> Background: <input type="file" multiple="false" accept="image/*" id="inputback" onchange="uploadBack()"/>
+  </p>
+  <input type="button" value="Compose Images" onclick="greenImageMaker()" id="composer" />
+  <input type="button" value="Clean Canvases" onclick="cleanCanvases()" id="cleaner" />
+</div>
