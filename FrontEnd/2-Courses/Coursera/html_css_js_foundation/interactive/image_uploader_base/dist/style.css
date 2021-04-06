@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+div {
+  margin-left: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+}
+
+canvas {
+  width: 200pt;
+  height: 100pt;
+  border: 1px solid lightgray;
+}
+
+input {
+  font-size: 10pt;
+}
